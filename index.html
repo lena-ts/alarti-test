@@ -8,7 +8,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <style>
@@ -150,7 +149,7 @@
             <div>✧ Выполняем качественную покраску авто в профессиональной покрасочной камере.</div>
             <div style="margin-top: 20px; margin-bottom: 20px;">Галерея:</div>
             <!--Галерея покраска авто -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"  data-touch="true">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -216,7 +215,7 @@
             <div>✧ Выполняем стапельные и кузовные работы любой сложности. </div>
             <div style="margin-top: 20px; margin-bottom: 20px">Галерея:</div>
             <!--Галерея покраска авто -->
-            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-touch="true">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
@@ -335,22 +334,20 @@
         </section>
     </div>
 
-    <script>
+<!--    <script>-->
 
-            $(document).ready(function() {
-                $('#carouselExampleIndicators').carousel()
-                $("#carouselExampleIndicators").swiperight(function() {
-                    $("#carouselExampleIndicators").carousel('prev');
-                });
-                $("#carouselExampleIndicators").swipeleft(function() {
-                    $("#carouselExampleIndicators").carousel('next');
-                });
-            });
-    </script>
+<!--            $(document).ready(function() {-->
+<!--                $('#carouselExampleIndicators').carousel()-->
+<!--                $("#carouselExampleIndicators").swiperight(function() {-->
+<!--                    $("#carouselExampleIndicators").carousel('prev');-->
+<!--                });-->
+<!--                $("#carouselExampleIndicators").swipeleft(function() {-->
+<!--                    $("#carouselExampleIndicators").carousel('next');-->
+<!--                });-->
+<!--            });-->
+<!--    </script>-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
